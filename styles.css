@@ -74,6 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
+    height: 100vh;
     /* justify-content: space-between; */
 }
 
@@ -91,8 +92,9 @@ body {
 .middle-form-container {
     padding-left: 10%;
     padding-bottom: 2%;
-    box-shadow: 10px 10px 10px rgb(90, 90, 90);
+    box-shadow: 5px 10px 10px rgba(80, 80, 80, 0.7);
     background-color: white;
+    z-index: 1;
 }
 
 label {
@@ -136,3 +138,38 @@ form div {
     width: 30%;
 }
  
+
+.bottom-button-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundcol);
+    /* top: 100px; */
+    position: relative;
+    z-index: 0;
+    height: 40%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+button {
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #596D48;
+    margin-bottom: 5%;
+}
+
+.bottom-button-container > p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bottom-button-container  a:link {
+    text-decoration: none;
+    color: #596D48;
+}
+
+.bottom-button-container  a {
+    color: #596D48;
+}
