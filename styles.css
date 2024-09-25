@@ -1,0 +1,70 @@
+:root {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.left-image {
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-background {
+    position: relative;
+    bottom: 77vh;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-height: 20%;
+}
+
+.odin-logo {
+    width: 25%;
+    aspect-ratio: 1/1;
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 100px;
+}
+
+
+.backgroundimg-container {
+    width: 100%;
+    height: 100%;
+}
+
+.background-pic {
+    width: 110%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.top-text-container {
+    margin: 40% 20% 10% 20%;
+    line-height: 20px;
+}
