@@ -18,6 +18,15 @@ body {
     font-family: Helvetica;
 }
 
+.left-image p {
+    color: white;
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;  
+    text-align: center;
+    width: 100%;
+}
+
 .left-image {
     width: 40%;
     overflow: hidden;
